@@ -17,5 +17,8 @@ highlighter: pygments
 navigation:
  - title: Events
    url: /events/
+ - title: Media
+   url: /media/
  - title: Members
    url: /members/
+
