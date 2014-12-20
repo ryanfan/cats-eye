@@ -21,4 +21,7 @@ navigation:
    url: /media/
  - title: Members
    url: /members/
+ - title: Contact
+   url: /contact/
+
 
