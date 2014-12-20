@@ -13,3 +13,9 @@ github_username:  ryanfan
 # Build settings
 markdown: kramdown
 highlighter: pygments
+
+navigation:
+ - title: Events
+   url: /events/
+ - title: Members
+   url: /members/
