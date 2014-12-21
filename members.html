@@ -2,19 +2,19 @@
 layout: default
 permalink: "/members/"
 ---
+<div class="container">
+  <h1 class="page-heading">Co-Managers</h1>
+  <ul class="members-list">
+  {% for member in site.data.members.comanagers %}
+    {% include member.html %}
+  {% endfor %}
+  </ul>
 
-<h1 class="page-heading">Co-Managers</h1>
-<ul class="members-list">
-{% for member in site.data.members.comanagers %}
-  {% include member.html %}
-{% endfor %}
-</ul>
-
-
-<h1 class="page-heading">Subcommittee</h1>
-<ul class="members-list">
-{% for member in site.data.members.subcommittee %}
-  {% include member.html %}
-{% endfor %}
-</ul>
+  <h1 class="page-heading">Subcommittee</h1>
+  <ul class="members-list">
+  {% for member in site.data.members.subcommittee %}
+    {% include member.html %}
+  {% endfor %}
+  </ul>
+</div>
 
