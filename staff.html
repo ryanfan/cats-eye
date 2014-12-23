@@ -1,0 +1,19 @@
+---
+layout: default
+permalink: "/staff/"
+---
+<h1>Co-Managers</h1>
+<ul class="staff-list">
+  {% for staff in site.data.staff.comanagers %}
+    {% include staff.html %}
+  {% endfor %}
+</ul>
+
+<h1>Subcommittee</h1>
+<ul class="staff-list">
+  {% for staff in site.data.staff.subcommittee %}
+    {% include staff.html %}
+  {% endfor %}
+</ul>
+
+

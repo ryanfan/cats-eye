@@ -1,8 +1,0 @@
-<li>
-    {% if member.pic %}
-      <img src="/img/member_photos/{{ member.pic }}.jpg" alt="Photo of {{ member.name }}">
-    {% else %}
-      <img src="http://placehold.it/176.jpg&amp;text={{ member.name | truncatewords:1,'' }}" alt="Photo of {{ member.name }}">
-    {% endif %}
-    <p>{{ member.name }}</p>
-</li>
