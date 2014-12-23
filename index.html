@@ -2,31 +2,25 @@
 layout: default
 ---
 
-<div class="wrapper">
-
-  <iframe src="//player.vimeo.com/video/110323106?portrait=0" width="100%" height="416/740 * width" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="//player.vimeo.com/video/110323106?portrait=0" width="100%" height="416/740 * width" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
   
-  <div class="row">
-    <div class="col-md-8">
-      <h1 class="page-heading">News</h1>
+<div class="row">
+  <div class="col-md-8">
+    <h1 class="page-heading">News</h1>
 
-      <ul class="post-list">
-        {% for post in site.posts %}
-          <li>
-            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-            <h2>
-              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-            </h2>
-          </li>
-        {% endfor %}
-      </ul>
-    </div>
-    <div class="col-md-4">
-      <a class="twitter-timeline" href="https://twitter.com/viccatseye" data-widget-id="545806112059326465">Tweets by @viccatseye</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-    </div>
+    <ul class="post-list">
+      {% for post in site.posts %}
+        <li>
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+          <h2>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h2>
+        </li>
+      {% endfor %}
+    </ul>
   </div>
-    
-
-
+  <div class="col-md-4">
+    <a class="twitter-timeline" href="https://twitter.com/viccatseye" data-widget-id="545806112059326465">Tweets by @viccatseye</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+  </div>
 </div>
