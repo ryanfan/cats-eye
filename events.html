@@ -4,4 +4,18 @@ permalink: "/events/"
 ---
 <h1 class="page-heading">Events</h1>
 
+<!--<ul class="posts page-list">
+{% if site.categories['events'] %}
+  {% assign events = site.categories['events'] | sort: 'date' %}
+  {% for post in events limit: 4 %}
+    <li>
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      <p>{{ post.date | date: "%b %-d" }} : {{ post.start }} to {{ post.end }}</p>
+    </li>
+  {% endfor %}
+{% else %}
+  <li class="empty">No upcoming events</li>
+{% endif %}
+</ul>-->
+
 <iframe class="responsive-iframe" src="https://www.google.com/calendar/embed?src=manager%40thecatseye.ca&amp;wkst=1&amp;ctz=America/Toronto" style=" border-width:0 " style=" border-width:0 " width="800" height="600" frameborder="0" scrolling="no></iframe>
