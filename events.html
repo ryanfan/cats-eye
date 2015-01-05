@@ -4,4 +4,18 @@ permalink: "/events/"
 ---
 <h1 class="page-heading">Events</h1>
 
+<p id=event-list></p>
+
+<script type="text/javascript">
+$(document).ready(function() {
+var url =  "https://www.googleapis.com/calendar/v3/calendars/mnjusq8qt3kh847kge772s9fmk%40group.calendar.google.com/events?singleEvents=true&key=AIzaSyD28KypP-wTD-AKZVECKL0WsxoXhJiYbys";
+$.getJSON(url, function(data) {
+    for(i in data['items']) {
+        item = data['items'][i];
+        $("#event-list").append(item.domain + "<br/>");
+    }
+});
+});
+</script>
+
 <iframe class="responsive-iframe" src="https://www.google.com/calendar/embed?src=manager%40thecatseye.ca&amp;wkst=1&amp;ctz=America/Toronto" style=" border-width:0 " style=" border-width:0 " width="800" height="600" frameborder="0" scrolling="no></iframe>
