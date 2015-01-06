@@ -24,7 +24,7 @@ layout: default
     <ul class="posts page-list">
     {% if site.categories['events'] %}
       {% assign events = site.categories['events'] | sort: 'date' %}
-      {% for post in events limit: 5 %}
+      {% for post in events %}
         <li>
           <p style="font-size:16px;font-weight: bold">{{ post.title }}</p>
           <p>{{ post.date | date: "%b %-d" }} : {{ post.start }} to {{ post.end }}</p>
