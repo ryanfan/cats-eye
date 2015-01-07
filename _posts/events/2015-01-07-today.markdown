@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Today"
+date:   2015-01-06
+start:  "12:00"
+end:    "12:00"
+categories: events
+---
