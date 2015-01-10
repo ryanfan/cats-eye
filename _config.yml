@@ -1,5 +1,6 @@
 # Site settings
-title: The Cat's Eye Student Pub & Lounge
+title: The Cat's Eye
+title_suffix: Student Pub & Lounge
 email: manager@catseye.ca
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -23,5 +24,3 @@ navigation:
    url: /staff/
  - title: Contact
    url: /contact/
-
-
