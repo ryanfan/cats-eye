@@ -24,6 +24,28 @@ body {
 }
 
 
+/**
+ * Site navigation bar
+ */
+#site-nav {
+   background-color: $brand-color;
+   border: none;
+
+   a {
+	    color: white;
+      height: 50px;
+
+      &:hover {
+        border-bottom: 2px solid white;
+      }
+   }
+}
+
+@media (max-width: 768px) {
+  #site-nav a:hover {
+    border-bottom: none;
+  }
+}
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
