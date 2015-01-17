@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "VCDS Presents: The Abandoned City"
+date:   2015-01-24
+start:  "7:00"
+end:    "11:00"
+categories: events
+---
