@@ -25,7 +25,7 @@ layout: default
     <h1 class="page-heading">Events this Week</h1>
     <ul class="posts page-list">
     {% if site.categories['events'] %}
-      {% assign events = site.categories['events'] | sort: 'date' %}
+      {% assign events = site.categories['events'] | sort: 'order' %}
       {% for post in events %}
         <li>
           <p style="font-size:16px;font-weight: bold">{{ post.title }}</p>
