@@ -5,7 +5,7 @@ email: manager@catseye.ca
 description: > # this means to ignore newlines until "baseurl:"
   The Cat's Eye is Victoria College's student-run lounge and pub. Come
   hang out with friends, study, or play games. The space is also available
-  for booking for all Victoria College students.
+  for booking for Victoria College groups.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://thecatseye.ca" # the base hostname & protocol for your site
 twitter_username: viccatseye
