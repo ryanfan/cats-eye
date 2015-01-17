@@ -2,8 +2,7 @@
 layout: post
 title:  "VCDS Presents: The Abandoned City"
 date:   2015-01-23
-order:  5
-start:  "6:00"
+start:  "7:00"
 end:    "11:00"
 categories: events
 ---
