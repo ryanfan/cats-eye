@@ -1,6 +1,6 @@
 <li>
     {% if staff.pic %}
-      <img src="/img/staff_photos/{{ staff.pic }}.jpg" alt="Photo of {{ staff.name }}">
+      <img src="/img/members/{{ staff.pic }}.jpg" alt="Photo of {{ staff.name }}">
     {% else %}
       <img src="http://placehold.it/176.jpg&amp;text={{ staff.name | truncatewords:1,'' }}" alt="Photo of {{ staff.name }}">
     {% endif %}
