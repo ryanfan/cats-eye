@@ -1,17 +1,22 @@
 <header style=" background-color: #771186">
+  <style>
+      .test{
+        padding-top: 2cm;
+    }
+  </style>  
   <script>
-
 
     $(window).scroll(function() {
       $('#site-nav').toggleClass('navbar-fixed-top', $(window).scrollTop() >= $("img").height() === true);
-    
-      $('#content').toggleClass('test', $(window).scrollTop() >= $("img").height() === true);
+      //$('#content').toggleClass('test', $(window).scrollTop() >= $("img").height() === true);
+      if ($(window).scrollTop() >= $("img").height() === true){
+        $('#content').css({'padding-top': $("img").height()});
+      } else {
+        $('#content').css({'padding-top': 0});
+      }
+
     });
 
-    $(document).ready(function() {
-        $("img").load(function() {
-        });
-    });
    </script>
 
   <img id="img" src="/img/header.png" alt="logo" style="display: block; margin-left: auto; margin-right: auto;">
