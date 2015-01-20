@@ -4,6 +4,8 @@
 
     $(window).scroll(function() {
       $('#site-nav').toggleClass('navbar-fixed-top', $(window).scrollTop() >= $("img").height() === true);
+    
+      $('#content').toggleClass('test', $(window).scrollTop() >= $("img").height() === true);
     });
 
     $(document).ready(function() {
