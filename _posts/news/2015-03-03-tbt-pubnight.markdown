@@ -5,8 +5,6 @@ date:   2015-03-03 12:00:00
 categories: news
 ---
 
-<a href="https://www.facebook.com/events/1404010673241901">Link to the Facebook event</a>
-
 Cat's Eye Presents: THROWBACK THURSDAY PUBNIGHT
 
 Do the Backstreet Boys and Fall Out Boy give you the feels? Do you believe in the fortune-telling powers of cootie catchers and MASH? Do you miss the days of Baby Bottle Pops and Kool Aid? Do you ever wish you had your own Pokémon, or that you could defend the world alongside Goku? We know how you feel.
@@ -14,6 +12,8 @@ Do the Backstreet Boys and Fall Out Boy give you the feels? Do you believe in th
 Join the Cat’s Eye for our THROWBACK PUB NIGHT on Thursday, March 12th. Rock out to the songs of your youth while getting sugar high on the candies of your childhood. Dig out your coolest 90’s gear - hoop earrings, slap bracelets, cargo shorts, aviators, and whatever else you can think of - and come out for a night of old school fun. 
 
 Entry is FREE and there will be a 19+ wristband policy for the cash bar. Please bring valid photo ID!
+
+<a href="https://www.facebook.com/events/1404010673241901">>> Link to the Facebook event</a>
 
 Here are some more details for a ridiculously awesome night:
 
@@ -40,7 +40,7 @@ All you need to do is submit:
 You can either submit PHYSICAL COPIES by dropping off the pictures in a single envelope at The Cat’s Eye mailbox (located in the VUSAC office in the Goldring Student Centre) or follow THE SUBMISSION LINK BELOW to submit it online.
 *DEADLINE for submissions is March 11th at 10PM
 
-Submission link: <a href="http://form.jotform.ca/form/50567870416258">Submit Your Photo Here</a>
+Submission link: <a href="http://form.jotform.ca/form/50567870416258">>> Submit Your Photo Here</a>
 
 *DISCLAIMER: We maintain the right to not include any photos that do not comply with the requirements for submissions dependent solely on the discretion of the organisers. Photos WILL NOT be held after the event unless explicit permission is given, otherwise they will be disposed of at the conclusion of the event.
 
