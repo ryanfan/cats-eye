@@ -5,7 +5,7 @@ date:   2015-03-03 12:00:00
 categories: news
 ---
 
-<img id="img" src="/img/tbtbanner.jpg">
+<img id="img" src="/img/TBTFacebookEvent.png">
 
 Cat's Eye Presents: THROWBACK THURSDAY PUBNIGHT
 
