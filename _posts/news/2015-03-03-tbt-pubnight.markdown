@@ -40,7 +40,7 @@ All you need to do is submit:
 You can either submit PHYSICAL COPIES by dropping off the pictures in a single envelope at The Cat’s Eye mailbox (located in the VUSAC office in the Goldring Student Centre) or follow THE SUBMISSION LINK BELOW to submit it online.
 *DEADLINE for submissions is March 11th at 10PM
 
-Submission link: http://form.jotform.ca/form/50567870416258
+Submission link: <a href="http://form.jotform.ca/form/50567870416258">Submit Your Photo Here</a>
 
 *DISCLAIMER: We maintain the right to not include any photos that do not comply with the requirements for submissions dependent solely on the discretion of the organisers. Photos WILL NOT be held after the event unless explicit permission is given, otherwise they will be disposed of at the conclusion of the event.
 
