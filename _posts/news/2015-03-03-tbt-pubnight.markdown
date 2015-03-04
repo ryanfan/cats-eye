@@ -5,6 +5,8 @@ date:   2015-03-03 12:00:00
 categories: news
 ---
 
+<img id="img" src="/img/tbtbanner.jpg">
+
 Cat's Eye Presents: THROWBACK THURSDAY PUBNIGHT
 
 Do the Backstreet Boys and Fall Out Boy give you the feels? Do you believe in the fortune-telling powers of cootie catchers and MASH? Do you miss the days of Baby Bottle Pops and Kool Aid? Do you ever wish you had your own Pokémon, or that you could defend the world alongside Goku? We know how you feel.
