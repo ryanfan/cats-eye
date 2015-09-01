@@ -26,3 +26,5 @@ navigation:
    url: /staff/
  - title: Contact
    url: /contact/
+
+maintenance: 1
