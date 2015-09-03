@@ -7,9 +7,7 @@ description: > # this means to ignore newlines until "baseurl:"
   hang out with friends, study, or play games. The space is also available
   for booking for Victoria College groups.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: https://thecatseye.ca   # with the https protocol
-enforce_ssl: thecatseye.ca   # without any protocol
-
+url: "http://thecatseye.ca" # the base hostname & protocol for your site
 twitter_username: viccatseye
 github_username:  thecatseye
 
